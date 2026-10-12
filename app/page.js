@@ -5,6 +5,7 @@ import ProductGrid from "./components/ProductGrid";
 import SeeCollection from "./components/SeeCollection";
 import BestSellers from "./components/BestSellers";
 import Instagram from "./components/Instagram";
+import Footer from "./components/Footer";
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
       <SeeCollection />
       <BestSellers />
     <Instagram />
+    <Footer />
     </div>
   );
 }

@@ -5,7 +5,7 @@ const brands = [
   { src: "/images/866a35b51552921cb844b281a8f6b0f90a71d303.png", alt: "S. Salva" },
   { src: "/images/8090fbb96ae3d647538f9358b251aab3b02a22d8.png", alt: "Golden Studio" },
   { src: "/images/76831a248b0e71ed534515dd3dced47e8fa05506.png", alt: "Furniture Design" },
-  { src: "/images/travel.png", alt: "Travel Lookbook" },
+  { src: "/images/76831a248b0e71ed534515dd3dced47e8fa05506 (1).png", alt: "Travel Lookbook" },
 ];
 
 const styleImages = [
@@ -27,6 +27,7 @@ export default function ExploreStyles() {
             width={100}
             height={40}
             className="object-contain"
+            priority={brands.indexOf(brand) < 4}
           />
         ))}
       </div>

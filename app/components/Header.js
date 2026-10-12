@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="w-full border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
-        <Image src="/images/icon.png" alt="search" width={20} height={20} />
+        <Image src="/images/icon.png" alt="search" width={20} height={20} priority />
         <div className="text-xl font-semibold tracking-widest">⋘ CORAL ⋙</div>
         <div className="flex gap-6 text-gray-600 text-sm">
           <span>👤 Account</span>

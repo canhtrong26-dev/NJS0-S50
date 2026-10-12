@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import ExploreStyles from "./components/ExploreStyles";
 import ProductGrid from "./components/ProductGrid";
 import SeeCollection from "./components/SeeCollection";
+import BestSellers from "./components/BestSellers";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       <ExploreStyles />
       <ProductGrid />
       <SeeCollection />
+      <BestSellers />
     </div>
   );
 }
